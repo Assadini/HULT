@@ -10,7 +10,7 @@ function Menu() {
           <li><a href='#'>About us</a></li>
           <li><a href='#'>How it works</a></li>
           <li><a href='#'>Hult prize winners</a></li>
-          <li><a href='#'>Stories</a></li>
+          <li><a href='https://www.hultprize.org/startup-pre-registration-is-now-open'>Stories</a></li>
           <li className='no-wrap'><a href='#'>Apply now</a></li>
         </ul>
       </div>
