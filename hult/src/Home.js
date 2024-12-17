@@ -1,7 +1,8 @@
 
-import './App.css';
+import './Home.css';
 import img2 from './img/44.png';
 import img from './img/2.jpg';
+import Footer from './Footer';
 // import video from './img/video.mp4';
 function Home() {
     return (
@@ -20,20 +21,20 @@ function Home() {
                 <p>The Hult Prize challenges young people around the world to solve the planet's most pressing issues through social entrepreneurship.</p>
                 <ul>
                   <li>
-                    <div className="globe"></div>
+                    <div className="globe space"></div>
                     <b> +120 </b> <br></br>countries
                   </li>
                   <li>
-                    <div className="participants"></div>
+                    <div className="participants space"></div>
                      <b> 100K </b> <br></br>contestants
                   </li>
                   <li>
-                    <div className="gradu">
+                    <div className="gradu space">
                     </div>
                      <b> 1M </b> <br></br>Alumni
                   </li>
                   <li>
-                    <div className="hand"></div>
+                    <div className="hand space"></div>
                      <b> 10K </b> <br></br>Annual experts
                   </li>
                 </ul>
@@ -63,6 +64,7 @@ function Home() {
               </div>
             </div>
         </section>
+        <Footer />
       </div>
     );
   }

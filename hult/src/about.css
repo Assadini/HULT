@@ -1,0 +1,91 @@
+.content{
+    width: 100%;
+    height: 100vh;
+}
+.aboutsection {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutsection .info{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 60rem;
+  }
+
+  .info .left{
+    width: 40%;
+    float: left;
+  }
+
+  .info .right{
+    width: 59%;
+    float: right;
+  }
+  .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+  }
+  .rightt img{
+    width: 100%;
+    height: 20rem;
+  }
+  .aboutsection h2{
+    font-family: "Poppins Black";
+  }
+  .size {
+    font-family: "Poppins Black";
+  }
+.aboutsection .apply,.info{
+    text-align: left;
+}
+
+.map {
+  position: relative;
+  width: 100%;
+ /* Full viewport height */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.sectio > .text {
+  grid-column: span 3; /* Make the first element span all 3 columns */
+}
+
+.sectio .info {
+  overflow: hidden;
+  max-width: 20rem;
+  padding: 10px 0;
+
+}
+
+.sectio .info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.sectio .info p {
+  color: #555;
+}

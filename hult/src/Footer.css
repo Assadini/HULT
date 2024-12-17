@@ -1,0 +1,25 @@
+.Footer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Footer img{
+    height: 2rem;
+    width:15rem;
+}
+.socials img{
+    height: 2rem;
+    width: 2rem;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Footer ul{
+    list-style: none;
+}

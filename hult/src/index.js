@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Menu from './Menu';
 import Home from './Home'; 
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  
+import AboutUs from './Aboutus';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <Menu />
-    <Home />
+    <Router>
+      <Menu />
+
+      <Routes>
+        {/* Route for the homepage */}
+        <Route path="/" element={<Home />} />
+        
+        {/* Route for the About Us page */}
+        <Route path="/Aboutus" element={<AboutUs />} />
+      </Routes>
+      
+    </Router>
   </React.StrictMode>
 );
-
