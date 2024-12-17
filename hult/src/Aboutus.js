@@ -1,8 +1,15 @@
 
 import React from 'react';
 import './about.css';
-import img2 from './img/44.png';
-import img from './img/2.jpg';
+import img from './img/Screenshot from 2024-12-17 11-33-12.png';
+import img1 from './img/Screenshot from 2024-12-17 11-34-10.png';
+import img2 from './img/Screenshot from 2024-12-17 11-34-45.png';
+import img3 from './img/Screenshot from 2024-12-17 11-35-11.png';
+import img4 from './img/Screenshot from 2024-12-17 11-35-37.png';
+import img5 from './img/Screenshot from 2024-12-17 11-36-00.png';
+import img6 from './img/Screenshot from 2024-12-17 11-36-20.png';
+import img7 from './img/Screenshot from 2024-12-17 11-36-37.png';
+
 import Footer from './Footer';
 // import video from './img/video.mp4';
 function Aboutus() {
@@ -12,7 +19,7 @@ function Aboutus() {
         
             <div className="info">
               <div className="left">
-              <p><b>Who We Are</b></p>
+              <p>Who We Are</p>
               <p>The Hult Prize challenges young people to solve the world’s most pressing issues through social entrepreneurship. Every year, one team receives $1M USD in funding to make their idea a reality.</p>
               </div>
               <div className="rightt">
@@ -31,51 +38,51 @@ function Aboutus() {
         </div>
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img1}></img></div>
+               <p>Who We Are</p>
               <p>Global Headquarters for Hult Prize Foundation.</p>
             </div>
           </div>
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img2}></img></div>
+               <p>Who We Are</p>
               <p>Regional Headquarters for Latin America & Caribbean.</p>
             </div>
           </div>
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img3}></img></div>
+               <p>Who We Are</p>
               <p></p>
               <p>Regional Headquarters for Central & South Asia.</p>
             </div>
           </div>
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img4}></img></div>
+               <p>Who We Are</p>
               <p>Regional Headquarters for Middle East & North Africa.</p>
             </div>
           </div>
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img5}></img></div>
+               <p>Who We Are</p>
               <p>Regional Headquarters for Europe.</p>
             </div>
           </div>      
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img6}></img></div>
+               <p>Who We Are</p>
               <p>Regional Headquarters for Sub-Saharan Africa.</p>
             </div>
           </div>
           <div className="info">
             <div className="city">
-              <div><img src={img}></img></div>
-               <p><b>Who We Are</b></p>
+              <div><img src={img7}></img></div>
+               <p>Who We Are</p>
               <p>Regional Headquarters for East/Southeast Asia & Oceania.</p>
             </div>
           </div>
